@@ -5,6 +5,8 @@ date:   2020-04-25 00:01:06 -0500
 categories: [ctf, write-up, forensics, volatility, windows]
 ---
 
+## 0day 1
+
 ## 0day 1 - Challenge
 
 To access these challenges, ssh to <volatility@forensics.5charlie.com> using the attached private key.
@@ -13,8 +15,6 @@ A memory capture of this system is saved at `/data/0day.bin`
 What is the Volatility profile for this image?
 
 **Attachments:** `id_volatility` - SSH Key
-
-## 0day 1
 
 ### 0day 1 - Solution
 
