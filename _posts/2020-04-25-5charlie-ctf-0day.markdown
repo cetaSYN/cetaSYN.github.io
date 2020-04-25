@@ -251,7 +251,7 @@ Offset(P)          Proto    Local Address                  Foreign Address      
 ...[truncated, but more of the same tens of thousands of times]
 ```
 
-That's weird. I don't fully understand what would cause Volatility to find so many wildcard UDP binds.
+That's weird. I don't know what would cause Volatility to find so many wildcard UDP binds.
 It's not relevant to our task, so I'll just negate the repeating pattern using `egrep -v "(UDPv4|UDPv6) {4}(0.0.0.0|::):0"`
 
 {% highlight bash %}
