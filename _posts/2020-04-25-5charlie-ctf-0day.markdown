@@ -339,17 +339,3 @@ There we go, `iexplore.exe (4220): S-1-5-21-4092088994-1057394591-2624646455-512
 Internet Explorer running as Domain Admin. That's probably not a good idea.
 
 **Flag:** `S-1-5-21-4092088994-1057394591-2624646455-512`
-
-## 0day 7
-
-### 0day 7 - Challenge
-
-This system has been exploited. What is the PID of the exploited process?
-
-**Hint:** Ponder the word "ancestry"
-
-### 0day 7 - Solution
-
-To be added
-
-**Flag:** `TBD`

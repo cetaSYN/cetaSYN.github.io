@@ -142,23 +142,25 @@ Nothing of interest in `/proc/net/tcp` or `/proc/net/udp`.
 
 But if we look at `/proc/net/tcp6` we notice can see that there is a port bound to the wildcard (`::` aka the repeating zeros on index 1) with a port of hexidecimal `19B7`.
 
-![/proc/net/tcp6 and Python3 conversion](/blog_images/5charlie-ctf-aperture-3-tcp6.png)
+``` text
+wheatley@09f81ab696ac:/tmp$ cat /proc/net/tcp6
+  sl  local_address                         remote_address                        st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode
+   0: 00000000000000000000000000000000:0016 00000000000000000000000000000000:0000 0A 00000000:00000000 00:00000000 00000000     0        0 2142157 1 ffff888153b1cc80 100 0 0 10 0
+   1: 00000000000000000000000000000000:19B7 00000000000000000000000000000000:0000 0A 00000000:00000000 00:00000000 00000000  1000        0 2142057 1 ffff888153b1ee80 100 0 0 10 0
+```
 
 Converting that port to decimal, we have our flag.
 
+``` text
+➜  ~ python3
+Python 3.6.9 (default, Apr 18 2020, 01:56:04)
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 0x19B7
+6583
+```
+
 **Flag:** `6583`
-
-## Aperture 4
-
-### Aperture 4 - Challenge
-
-What is the name of the process listening on port 6583? (give just the short process name, no need to include the full path)
-
-### Aperture 4 - Solution
-
-To be added
-
-**Flag:** `TBD`
 
 ## Additional Notes
 
