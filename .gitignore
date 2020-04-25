@@ -1,2 +1,6 @@
 # Just for now
 resume/*
+
+_site
+.sass-cache
+.jekyll-metadata
