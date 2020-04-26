@@ -9,7 +9,7 @@ categories: [ctf, write-up, forensics, linux]
 
 ## Aperture 1 - Challenge
 
-To access these challenges, ssh to <wheatley@analysis.5charlie.com>
+To access these challenges, ssh to wheatley@analysis.5charlie.com
 
 What is the full path to the configuration file that has been backdoored to allow command execution through OpenSSH?
 

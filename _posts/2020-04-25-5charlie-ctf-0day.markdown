@@ -9,7 +9,7 @@ categories: [ctf, write-up, forensics, volatility, windows]
 
 ## 0day 1 - Challenge
 
-To access these challenges, ssh to <volatility@forensics.5charlie.com> using the attached private key.
+To access these challenges, ssh to volatility@forensics.5charlie.com using the attached private key.
 A memory capture of this system is saved at `/data/0day.bin`
 
 What is the Volatility profile for this image?
