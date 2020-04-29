@@ -62,7 +62,7 @@ udH0uC
 ```
 
 The data mixed is a repeating pattern of base64.
-I'm sure there's a nice way to pull this out, but since the field lengths vary, I found it faster to just align things by hand in CyberChef.
+I'm sure there's a nice way to pull this out, but since the field lengths vary, I found it faster to just align things [by hand in CyberChef](https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,true,true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)&input=UVNCRVlXUWdhbTlyWlNCdApZWGtnYm05MElHMWhhMlVnCmMyVnVjMlVnWVhRZ1ptbHljCjNRZ1luVjBJR1YyWlc1MApkV0ZzYkhrZ1pteGgKWjN0CjBhR1ZmZEhKMWRHaGZZbVYKamIyMWxjMTloY0hCaGNtVgp1ZEgwdUNnPT0).
 
 ![CyberChef analysis of a terrible pun](/assets/images/exfil_wisdom_chef.png)
 
