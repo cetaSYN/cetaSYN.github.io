@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Korobochka"
 date:   2020-04-28 20:32:38 -0500
-categories: [ctf, write-up, elastic, linux, hacking]
+categories: write-up
+tags: [ctf, write-up, elastic, linux, hacking]
 ---
 
 ## Korobochka 1

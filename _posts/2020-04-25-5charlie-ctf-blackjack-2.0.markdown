@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Blackjack 2.0"
 date:   2020-04-25 15:46:41 -0500
-categories: [ctf, write-up, miscellaneous, secure-coding]
+categories: write-up
+tags: [ctf, write-up, miscellaneous, secure-coding]
 ---
 
 ## Blackjack

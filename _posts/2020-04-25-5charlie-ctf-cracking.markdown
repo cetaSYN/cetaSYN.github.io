@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Cracking"
 date:   2020-04-25 23:42:37 -0500
-categories: [ctf, write-up, cracking]
+categories: write-up
+tags: [ctf, write-up, cracking]
 ---
 
 ## Cracking 1

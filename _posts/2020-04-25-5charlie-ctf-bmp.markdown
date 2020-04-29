@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - BMP"
 date:   2020-04-25 18:47:03 -0500
-categories: [ctf, write-up, steganography]
+categories: write-up
+tags: [ctf, write-up, steganography]
 ---
 
 ## BMP

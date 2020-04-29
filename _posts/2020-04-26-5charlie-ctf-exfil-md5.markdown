@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Exfil - MD5"
 date:   2020-04-26 14:15:21 -0500
-categories: [ctf, write-up, network, covert-channel]
+categories: write-up
+tags: [ctf, write-up, network, covert-channel]
 ---
 
 ## MD5

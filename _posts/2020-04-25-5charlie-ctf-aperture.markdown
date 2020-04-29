@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Aperture"
 date:   2020-04-25 01:31:48 -0500
-categories: [ctf, write-up, forensics, linux]
+categories: write-up
+tags: [ctf, write-up, forensics, linux]
 ---
 
 ## Aperture 1

@@ -2,7 +2,8 @@
 layout: post
 title:  "5Charlie CTF - Evasion"
 date:   2020-04-26 12:40:13 -0500
-categories: [ctf, write-up, linux, forensics]
+categories: write-up
+tags: [ctf, write-up, linux, forensics]
 ---
 
 ## Evasion 1
