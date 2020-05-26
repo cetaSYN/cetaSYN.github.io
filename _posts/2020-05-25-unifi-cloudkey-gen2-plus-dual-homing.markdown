@@ -30,10 +30,14 @@ Time to dual-home the controller device.
 Again, this only covers the dual-homing, not the configuration of DHCP, firewall rules, or the Unifi switch. I'd be happy to put something together in the future if there is interest.<br>
 This guide is close to what I did, but if you are implementing it yourself, you will want to adjust the addresses, servers, and maybe even vlan numbering to your own needs. This is just a template.
 
-For the sake of the guide, we'll make up two vlans:
+For the sake of the guide, we'll use two vlans:
 
-- VLAN 10: Network Management
-- VLAN 14: Security Cameras
+- `VLAN 10`: Network Management
+  - Gateway: `192.168.10.1/24`
+  - CKV2P: `192.168.10.10`
+- `VLAN 14`: Security Cameras
+  - Gateway: `192.168.14.1/24`
+  - CKV2P: `192.168.14.2`
 
 We'll first need to SSH into our CKV2P device. The reference the [official guidance](https://help.ui.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices#3) if you're having trouble getting in.
 
