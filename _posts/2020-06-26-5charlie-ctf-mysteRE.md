@@ -24,11 +24,11 @@ We were able to create environment and read through using radare2 and the comman
 
 We had some trouble getting an environment running but eventually decided to package it up as a DOSBox package and upload it to an online javascript-based DOSBox emulator: <https://caiiiycuk.github.io/dosify/>
 
-![DOSify Input](assets/images/mystere_dosify_input.png)
+![DOSify Input](/assets/images/mystere_dosify_input.png)
 
 We give it a run...
 
-![DOSify Output](assets/images/mystere_dosify_output.png)
+![DOSify Output](/assets/images/mystere_dosify_output.png)
 
 Now we start seeing a bunch of dots being printed to the screen.
 It turns out that triple-dots are dashes, the single dots are dots, and the long breaks are character delimiters- morse code!
