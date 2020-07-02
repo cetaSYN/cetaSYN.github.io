@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Aperture"
-date:   2020-04-25 01:31:48 -0500
-categories: write-up
-tags: [ctf, write-up, forensics, linux]
+title: "5Charlie CTF - Aperture"
+date: 2020-04-25 01:31:48 -0500
+categories: 
+- write-up
+tags:
+- ctf
+- write-up
+- forensics
+- linux
 ---
+
+A write-up of the Aperture Linux live system forensics challenge from 5Charlie CTF.
 
 ## Aperture 1
 

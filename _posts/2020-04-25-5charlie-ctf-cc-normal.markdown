@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Covert Channel - Normal"
-date:   2020-04-25 22:36:40 -0500
-categories: write-up
-tags: [ctf, write-up, network, covert-channel]
+title: "5Charlie CTF - Covert Channel - Normal"
+date: 2020-04-25 22:36:40 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - network
+  - covert-channel
 ---
+
+A write-up of the "Normal" network covert-channel pcap analysis challenge from 5Charlie CTF.
 
 ## Normal
 

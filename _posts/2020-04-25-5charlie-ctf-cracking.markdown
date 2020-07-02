@@ -1,10 +1,15 @@
 ---
-layout: post
-title:  "5Charlie CTF - Cracking"
-date:   2020-04-25 23:42:37 -0500
-categories: write-up
-tags: [ctf, write-up, cracking]
+title: "5Charlie CTF - Cracking"
+date: 2020-04-25 23:42:37 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - cracking
 ---
+
+A write-up of the "Cracking" password cracking challenge from 5Charlie CTF.
 
 ## Cracking 1
 

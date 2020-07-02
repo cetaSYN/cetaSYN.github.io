@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Exfil - MD5"
-date:   2020-04-26 14:15:21 -0500
-categories: write-up
-tags: [ctf, write-up, network, covert-channel]
+title: "5Charlie CTF - Exfil - MD5"
+date: 2020-04-26 14:15:21 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - network
+  - covert-channel
 ---
+
+A write-up of the "MD5" network covert-channel pcap analysis challenge from 5Charlie CTF.
 
 ## MD5
 

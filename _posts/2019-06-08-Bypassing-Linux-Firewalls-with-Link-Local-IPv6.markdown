@@ -1,13 +1,16 @@
 ---
-layout: post
 title: "Bypassing Linux Firewalls with Link-Local IPv6"
 description: "With Linux hosts especially, defenders will leverage iptables to quickly lock down remote access, but neglect ip6tables: the IPv6 firewall."
 date: 2019-06-08 11:31:38 -0500
-categories: linux
-tags: [linux, networking, link-local, ipv6, hacking, pivoting]
+categories:
+- linux
+tags: 
+- linux
+- networking
+- ipv6
+- hacking
+- pivoting
 ---
-
-## Premise
 
 During a King-of-the-Hill or Attack/Defend-style Capture the Flag exercise, defenders are under pressure to defend many hosts at once, to the best of their ability, as quickly as possible. This leads to corners being cut that can lead to another team gaining access.
 

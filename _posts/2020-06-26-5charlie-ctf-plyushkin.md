@@ -1,10 +1,18 @@
 ---
-layout: post
-title:  "5Charlie CTF - Plyushkin"
-date:   2020-06-26 00:00:00 -0500
-categories: write-up
-tags: [ctf, write-up, linux, database, hacking, sqli]
+title: "5Charlie CTF - Plyushkin"
+date: 2020-06-26 00:00:00 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - linux
+  - database
+  - hacking
+  - sqli
 ---
+
+A write-up of the Plyushkin SQLi challenge from 5Charlie CTF.
 
 ## Plyushkin 1
 

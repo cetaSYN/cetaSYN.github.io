@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "Linux Desktop Not Pulling An IPv6 Address"
-date:   2020-05-01 19:29:05 -0500
-categories: linux
-tags: [linux, networking, troubleshooting, ipv6, dhcpv6]
+title: "Linux Desktop Not Pulling An IPv6 Address"
+date: 2020-05-01 19:29:05 -0500
+categories:
+  - linux
+tags:
+  - linux
+  - networking
+  - troubleshooting
+  - ipv6
+  - dhcpv6
 ---
+
+Configure your host firewall to allow DHCPv6 inbound.
 
 ## Scenario
 

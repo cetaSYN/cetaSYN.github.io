@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "5Charlie CTF - Easy Too"
-date:   2020-06-26 17:00:00 -0500
-categories: write-up
-tags: [ctf, write-up, reverse-engineering, arm, angr]
+title: "5Charlie CTF - Easy Too"
+date: 2020-06-26 17:00:00 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - reverse-engineering
+  - arm
+  - angr
 ---
+
+A write-up of the "Easy Too" reverse engineering challenge from 5Charlie CTF.
 
 ## Easy Too
 

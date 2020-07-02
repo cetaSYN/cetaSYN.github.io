@@ -1,10 +1,15 @@
 ---
-layout: post
-title:  "5Charlie CTF - MP3 - Pop"
-date:   2020-04-29 19:44:15 -0500
-categories: write-up
-tags: [ctf, write-up, steganography]
+title: "5Charlie CTF - MP3 - Pop"
+date: 2020-04-29 19:44:15 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - steganography
 ---
+
+A write-up of the "Pop" audio steganography challenge from 5Charlie CTF.
 
 ## MP3 - Pop
 

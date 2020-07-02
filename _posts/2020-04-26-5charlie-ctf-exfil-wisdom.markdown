@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Exfil - Wisdom"
-date:   2020-04-26 13:18:45 -0500
-categories: write-up
-tags: [ctf, write-up, network, covert-channel]
+title: "5Charlie CTF - Exfil - Wisdom"
+date: 2020-04-26 13:18:45 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - network
+  - covert-channel
 ---
+
+A write-up of the "Wisdom" network covert-channel pcap analysis challenge from 5Charlie CTF.
 
 ## Wisdom 1
 

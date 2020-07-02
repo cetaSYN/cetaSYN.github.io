@@ -1,10 +1,18 @@
 ---
-layout: post
-title:  "5Charlie CTF - Odyssey"
-date:   2020-04-29 21:41:42 -0500
-categories: write-up
-tags: [ctf, write-up, linux, forensics, devops, docker]
+title: "5Charlie CTF - Odyssey"
+date: 2020-04-29 21:41:42 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - linux
+  - forensics
+  - devops
+  - docker
 ---
+
+A write-up of the "Odyssey" container memory export forensic analysis challenge from 5Charlie CTF.
 
 ## Odyssey 1
 

@@ -1,9 +1,14 @@
 ---
-layout: post
-title:  "Unifi CloudKey Gen2 Plus Dual Homing"
-date:   2020-05-25 14:56:51 -0500
-categories: networking
-tags: [networking, linux, vlan, unifi, ubiquiti]
+title: "Unifi CloudKey Gen2 Plus Dual Homing"
+date: 2020-05-25 14:56:51 -0500
+categories:
+  - networking
+tags:
+  - networking
+  - linux
+  - vlan
+  - unifi
+  - ubiquiti
 ---
 
 This is a guide for dual-homing a CKV2P this is currently operating in a configuration where the device operates in a single subnet for both Unifi Network Controller and Unifi Protect Controller.

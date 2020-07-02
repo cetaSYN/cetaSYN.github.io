@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "5Charlie CTF - Korobochka"
-date:   2020-04-28 20:32:38 -0500
-categories: write-up
-tags: [ctf, write-up, elastic, linux, hacking]
+title: "5Charlie CTF - Korobochka"
+date: 2020-04-28 20:32:38 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - elastic
+  - linux
+  - hacking
 ---
+
+A write-up of the "Korobochka" Elastic hacking challenge from 5Charlie CTF.
 
 ## Korobochka 1
 

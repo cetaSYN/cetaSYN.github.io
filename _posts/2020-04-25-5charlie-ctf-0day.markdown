@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "5Charlie CTF - 0day"
-date:   2020-04-25 00:01:06 -0500
-categories: write-up
-tags: [ctf, write-up, forensics, volatility, windows]
+title: "5Charlie CTF - 0day"
+date: 2020-04-25 00:01:06 -0500
+categories:
+- write-up
+tags:
+- ctf
+- write-up
+- forensics
+- volatility
+- windows
 ---
+
+A write-up of the 0day Windows memory forensics challenge from 5Charlie CTF.
 
 ## 0day 1
 

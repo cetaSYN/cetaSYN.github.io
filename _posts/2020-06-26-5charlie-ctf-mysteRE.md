@@ -1,10 +1,15 @@
 ---
-layout: post
-title:  "5Charlie CTF - Myste-RE"
-date:   2020-06-26 00:00:00 -0500
-categories: write-up
-tags: [ctf, write-up, reverse-engineering]
+title: "5Charlie CTF - Myste-RE"
+date: 2020-06-26 00:00:00 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - reverse-engineering
 ---
+
+A write-up of the "Myste-RE" reverse-engineering challenge from 5Charlie CTF.
 
 ## Myste-RE 1
 

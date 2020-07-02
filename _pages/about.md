@@ -1,10 +1,8 @@
 ---
-layout: page
-title: About
 permalink: /about/
+title: "About"
+author_profile: true
 ---
-
-0xf09f909f
 
 - **Twitter:** [cetaSYN](https://twitter.com/CetaSyn)
 - **GitHub:** [cetaSYN](https://github.com/cetaSYN)

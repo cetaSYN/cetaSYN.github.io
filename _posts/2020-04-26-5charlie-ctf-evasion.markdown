@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Evasion"
-date:   2020-04-26 12:40:13 -0500
-categories: write-up
-tags: [ctf, write-up, linux, forensics]
+title: "5Charlie CTF - Evasion"
+date: 2020-04-26 12:40:13 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - linux
+  - forensics
 ---
+
+A write-up of the Aperture Linux live system forensics challenge from 5Charlie CTF.
 
 ## Evasion 1
 

@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "5Charlie CTF - Escalator"
-date:   2020-06-26 17:00:00 -0500
-categories: write-up
-tags: [ctf, write-up, linux, hacking, privesc]
+title: "5Charlie CTF - Escalator"
+date: 2020-06-26 17:00:00 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - linux
+  - hacking
+  - privesc
 ---
+
+A write-up of the "Escalator" privelege escalation challenge set from 5Charlie CTF.
 
 ## Escalator 1
 

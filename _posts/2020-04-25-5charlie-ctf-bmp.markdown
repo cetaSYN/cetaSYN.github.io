@@ -1,10 +1,15 @@
 ---
-layout: post
-title:  "5Charlie CTF - BMP"
-date:   2020-04-25 18:47:03 -0500
-categories: write-up
-tags: [ctf, write-up, steganography]
+title: "5Charlie CTF - BMP"
+date: 2020-04-25 18:47:03 -0500
+categories:
+- write-up
+tags:
+- ctf
+- write-up
+- steganography
 ---
+
+A write-up of the BMP image steganography challenge from 5Charlie CTF.
 
 ## BMP
 

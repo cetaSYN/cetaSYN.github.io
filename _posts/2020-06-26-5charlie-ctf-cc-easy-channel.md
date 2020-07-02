@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Covert-Channel - Easy Channel"
-date:   2020-06-26 17:00:00 -0500
-categories: write-up
-tags: [ctf, write-up, network, covert-channel]
+title: "5Charlie CTF - Covert-Channel - Easy Channel"
+date: 2020-06-26 17:00:00 -0500
+categories:
+  - write-up
+tags:
+  - ctf
+  - write-up
+  - network
+  - covert-channel
 ---
+
+A write-up of the "Easy Channel" network covert-channel pcap analysis challenge from 5Charlie CTF.
 
 ## Easy Channel
 

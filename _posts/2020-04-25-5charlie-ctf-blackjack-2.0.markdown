@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "5Charlie CTF - Blackjack 2.0"
-date:   2020-04-25 15:46:41 -0500
-categories: write-up
-tags: [ctf, write-up, miscellaneous, secure-coding]
+title: "5Charlie CTF - Blackjack 2.0"
+date: 2020-04-25 15:46:41 -0500
+categories:
+- write-up
+tags:
+- ctf
+- write-up
+- miscellaneous
+- secure-coding
 ---
+
+A write-up of the Blackjack 2.0 Python application security challenge from 5Charlie CTF.
 
 ## Blackjack
 
