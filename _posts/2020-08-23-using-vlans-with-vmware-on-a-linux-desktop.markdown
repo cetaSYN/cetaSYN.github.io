@@ -1,6 +1,7 @@
 ---
 title: "Using VLANs with VMWare on a Linux Desktop"
 date: 2020-08-23 20:02:00 -0500
+classes: wide
 categories:
   - linux
   - vmware
