@@ -151,7 +151,7 @@ Next, begin adding networks (e.g. `vmnet 20`) for each of your vlans, setting th
 
 To assign a VM to one of your new virtual networks, just assign a network adapter to one of the VMNets you created in the `custom` section.
 
-![Virtual Machine VLAN Assignment](/assets/images/vmware-netcfg-vlan.png)
+![Virtual Machine VLAN Assignment](/assets/images/vmware-vm-netdev.png)
 
 ## Caveats
 
