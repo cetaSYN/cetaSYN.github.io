@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Covert Channel - Normal"
 date: 2020-04-25 22:36:40 -0500
+classes: wide
 categories:
   - write-up
 tags:

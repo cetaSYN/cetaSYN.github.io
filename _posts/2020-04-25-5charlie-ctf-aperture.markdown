@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Aperture"
 date: 2020-04-25 01:31:48 -0500
+classes: wide
 categories: 
 - write-up
 tags:

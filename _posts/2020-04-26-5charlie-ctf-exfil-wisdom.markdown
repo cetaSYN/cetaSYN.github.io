@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Exfil - Wisdom"
 date: 2020-04-26 13:18:45 -0500
+classes: wide
 categories:
   - write-up
 tags:

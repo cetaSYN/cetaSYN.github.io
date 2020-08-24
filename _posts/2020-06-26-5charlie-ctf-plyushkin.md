@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Plyushkin"
 date: 2020-06-26 00:00:00 -0500
+classes: wide
 categories:
   - write-up
 tags:

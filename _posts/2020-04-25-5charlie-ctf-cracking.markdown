@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Cracking"
 date: 2020-04-25 23:42:37 -0500
+classes: wide
 categories:
   - write-up
 tags:

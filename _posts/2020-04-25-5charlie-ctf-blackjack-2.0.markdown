@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Blackjack 2.0"
 date: 2020-04-25 15:46:41 -0500
+classes: wide
 categories:
 - write-up
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Exfil - MD5"
 date: 2020-04-26 14:15:21 -0500
+classes: wide
 categories:
   - write-up
 tags:

@@ -2,6 +2,7 @@
 title: "Bypassing Linux Firewalls with Link-Local IPv6"
 description: "With Linux hosts especially, defenders will leverage iptables to quickly lock down remote access, but neglect ip6tables: the IPv6 firewall."
 date: 2019-06-08 11:31:38 -0500
+classes: wide
 categories:
 - linux
 tags: 

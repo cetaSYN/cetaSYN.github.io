@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Evasion"
 date: 2020-04-26 12:40:13 -0500
+classes: wide
 categories:
   - write-up
 tags:

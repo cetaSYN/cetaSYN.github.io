@@ -1,6 +1,7 @@
 ---
 title: "Linux Desktop Not Pulling An IPv6 Address"
 date: 2020-05-01 19:29:05 -0500
+classes: wide
 categories:
   - linux
 tags:

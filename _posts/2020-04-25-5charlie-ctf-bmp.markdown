@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - BMP"
 date: 2020-04-25 18:47:03 -0500
+classes: wide
 categories:
 - write-up
 tags:

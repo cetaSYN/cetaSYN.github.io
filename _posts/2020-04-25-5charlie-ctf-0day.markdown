@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - 0day"
 date: 2020-04-25 00:01:06 -0500
+classes: wide
 categories:
 - write-up
 tags:

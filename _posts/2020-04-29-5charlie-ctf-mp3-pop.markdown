@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - MP3 - Pop"
 date: 2020-04-29 19:44:15 -0500
+classes: wide
 categories:
   - write-up
 tags:

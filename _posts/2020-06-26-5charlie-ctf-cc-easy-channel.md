@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Covert-Channel - Easy Channel"
 date: 2020-06-26 17:00:00 -0500
+classes: wide
 categories:
   - write-up
 tags:

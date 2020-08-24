@@ -1,6 +1,7 @@
 ---
 title: "5Charlie CTF - Odyssey"
 date: 2020-04-29 21:41:42 -0500
+classes: wide
 categories:
   - write-up
 tags:

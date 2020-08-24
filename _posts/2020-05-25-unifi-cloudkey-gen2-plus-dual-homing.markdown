@@ -1,6 +1,7 @@
 ---
 title: "Unifi CloudKey Gen2 Plus Dual Homing"
 date: 2020-05-25 14:56:51 -0500
+classes: wide
 categories:
   - networking
 tags:
