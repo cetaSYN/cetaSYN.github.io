@@ -63,7 +63,7 @@ This would be fairly strightforward except the generated representation is shuff
 
 I decided to solve the Bonus first, which showed me that brute forcing it was not a reasonable approach. After a little fumbling with frequency analysis, etc, I reasoned that I could figure out the delimiters by hand.
 
-I was able to recover the delimiter characters by detemining which characters were never seen directly adjacent to eachother. Every letter required at least one "on" bit, so every delimiter would have at least one separating character.
+I was able to recover the delimiter characters by detemining which characters were never seen directly adjacent to eachother. Every letter required at least one "on" bit, so every delimiter would have at least one separating character. I initially tried using the most frequent characters, but determined that wasn't working (the most frequent would be 64 and 32 bitfields, not delimiters). I ended up stepping loading up the string in VSCode (as shown below) and stepping out ~3-5 characters (assuming that was the most common lengths) using the the Find feature, and seeing if the highlighting was adjancent. It was a bit of manual work, but ended up working out.
 
 ![Manual analysis of delimiters using VSCode regex](/assets/images/disorderly_delimiters.png)
 
