@@ -13,12 +13,11 @@ tags:
   - virtualization
 ---
 
-[Last year](/linux/vmware/using-vlans-with-vmware-on-a-linux-desktop/) I wrote about using VLANs with VMWare Workstation on my Ubuntu desktop.<br>
-This involves creating virtual interfaces for the VLANs within my network, bridging them with the VMWare Network Manager, and choosing a suitable bridge interface for each virtual machine.<br>
-A year later, I'm actively using this process in my day to day workflow to ensure my traffic is placed in a vlan with restrictions commensurate with its level of risk.<br>
-For example, capture the flag VMs have unrestricted internet access but zero access to the LAN, meanwhile my administrative VM is allowed to access my network infrastructure and servers, but can't reach the internet.<br>
-The ability to rapidly stand up VMs within a network space on my local machine has dramatically improved my efficiency, and I would like to share this process.<br>
-Best of all, with the experience I've gathered over a year, I've boiled this down to a very simple and robust configuration.
+[Last year](/linux/vmware/using-vlans-with-vmware-on-a-linux-desktop/) I wrote about using VLANs with VMWare Workstation with systemd-networkd.<br>
+A year later, I'm still actively using this process in my day to day workflow but I'm using a much improved configurating leveraging NetworkManager and nmcli.
+
+Placing my VMs within specific VLANs ensures my network traffic has restrictions commensurate with its level of risk.<br>
+For example, capture the flag VMs have unrestricted internet access but zero access to the LAN, meanwhile my administrative VM is allowed to access my network infrastructure and servers, but can't reach the internet.
 
 ## Configuration
 
@@ -35,7 +34,7 @@ We'll need to configure a VLAN-tagged virtual interface for each VLAN we wish to
 
 ```bash
 # Syntax:
-nmcli con add type vlan ifname vlan<vlan_id> con-name vlan<vlan_id> dev <trunk interface name> id <vlan_id>
+nmcli con add type vlan ifname vlan<vlan_id> con-name vlan<vlan_id> dev <trunk_iface> id <vlan_id>
 # Example:
 nmcli con add type vlan ifname vlan10 con-name vlan10 dev enp0s12a3 id 10
 ```
@@ -60,7 +59,7 @@ nmcli con up vlan<vlan_id>
 This part is optional, but you can place your host machine in a specific VLAN as well by disabling IP addressing on the trunk interface, and leaving addressing on for a VLAN-tagged virtual interface. (Process above, without the second step)
 
 ```bash
-nmcli dev mod ipv4.method disabled ipv6.method disabled
+nmcli dev mod <trunk_iface> ipv4.method disabled ipv6.method disabled
 ```
 
 ### Creating VMWare Virtual Networks
