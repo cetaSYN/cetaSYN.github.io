@@ -51,8 +51,8 @@ nmcli con mod vlan<vlan_id> ipv4.method disabled ipv6.method disabled
 Bounce the interface to drop the address.
 
 ```bash
-nmcli con down vlan17
-nmcli con up vlan17
+nmcli con down vlan<vlan_id>
+nmcli con up vlan<vlan_id>
 ```
 
 ### Reconfigure Trunk Interface
