@@ -14,6 +14,8 @@ tags:
   - systemd
 ---
 
+**UPDATE:** [I have written an easier, more robust guide that leverages NetworkManager and nmcli.](/linux/vmware/re-vmware-workstation-vlans/)
+
 I enjoy capture the flag competitions, and it's a good practice to operate in a clean virtual environment.
 I would like the CTF VM to be in it's own VLAN, but I'm cheap and don't have server hardware.
 Let's learn how to create virtual network interfaces on Ubuntu Desktop (20.04), and create vlan-bridged vmnets in VMWare Workstation that can be assigned to virtual machines.
