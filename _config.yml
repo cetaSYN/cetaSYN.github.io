@@ -44,7 +44,7 @@ plugins:
 author:
   name                 : "cetaSYN"
   avatar               : "/assets/images/bio-photo.png"
-  bio                  : "Orca obsessed; Cybersecurity dev w/ network focus; He/Him;"
+  bio                  : "Cybersecurity dev w/ network focus; He/Him;"
   links:
     - label            : "Website"
       icon             : "fas fa-fw fa-link"
