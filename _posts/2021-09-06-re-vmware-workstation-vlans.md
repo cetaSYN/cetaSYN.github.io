@@ -72,16 +72,16 @@ If you're using VMWare Player, check out the [Caveats](#caveats) section for a w
 If you haven't edited anything, you'll probably have three `vmnet#` interfaces already made.<br>
 `vmnet0` is an interface that is bridged to all other interfaces on your host.
 
-You'll want to start by selecting `vmnet0`, and changing the device that it is bridged to from `Automatic` to your host `$IFACE` of the physical device.<br>
-Next, begin adding networks (e.g. `vmnet 20`) for each of your vlans, setting them to `Bridged` and bridging them to the appropriate virtual interface (e.g. `$IFACE.20`).
+You'll want to start by selecting `vmnet0`, and changing the device that it is bridged to from `Automatic` to your host interface.<br>
+Next, begin adding networks (e.g. `vmnet20`) for each of your vlans, setting them to `Bridged` and bridging them to the appropriate virtual interface (e.g. `vlan20`).
 
-![VMWare Virtual Network Editor](/assets/images/vmware-netcfg-vlan.png)
+![VMWare Virtual Network Editor](/assets/images/vmware-netcfg-vlan-2.png)
 
 ### Working With Virtual Machines
 
 To assign a VM to one of your new virtual networks, just assign a network adapter to one of the VMNets you created in the `custom` section.
 
-![Virtual Machine VLAN Assignment](/assets/images/vmware-vm-netdev.png)
+![Virtual Machine VLAN Assignment](/assets/images/vmware-vm-netdev-2.png)
 
 ## Caveats
 
