@@ -12,6 +12,8 @@ tags:
   - ubiquiti
 ---
 
+**UPDATE**: Updates to the Unifi software now conflict with this configuration. I highly recommend finding an alternative solution as this will cause the Unifi Protect software server to fail in subtle ways.
+
 This is a guide for dual-homing a CKV2P this is currently operating in a configuration where the device operates in a single subnet for both Unifi Network Controller and Unifi Protect Controller.
 
 ![Map of CKV2P in dual-homed configuration](/assets/images/unifi_dual_home_map.png)
