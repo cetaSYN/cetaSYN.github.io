@@ -1,10 +1,7 @@
-# Just for now
-resume/*
-
 _site
 _drafts
 .sass-cache
 .jekyll-metadata
-Gemfile.lock
+/Gemfile.lock
 
 *.code-workspace
