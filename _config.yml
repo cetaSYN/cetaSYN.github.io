@@ -6,7 +6,7 @@ description            : "Write-ups, proof-of-concepts, guides, etc."
 twitter_username       : "cetaSYN"
 github_username        : "cetaSYN"
 repository             : "cetasyn/cetasyn.github.io"
-url                    : "https://nom.fish"
+url                    : "https://cetasyn.github.io"
 baseurl                : ""
 search                 : true
 
@@ -48,7 +48,7 @@ author:
   links:
     - label            : "Website"
       icon             : "fas fa-fw fa-link"
-      url              : "https://nom.fish"
+      url              : "https://cetasyn.github.io"
     - label            : "Twitter"
       icon             : "fab fa-fw fa-twitter-square"
       url              : "https://twitter.com/cetaSYN"
